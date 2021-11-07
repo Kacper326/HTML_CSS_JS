@@ -1,0 +1,39 @@
+/* (min-width: 768px) */
+
+.nav-mobile {
+    display: none;
+}
+
+.nav-deskopt {
+    display: block;
+}
+
+.nav-deskopt li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-deskopt li a {
+    padding: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    color: #333;
+}
+
+.nav-deskopt li a:hover {
+    color: rgb(0, 153, 255);
+}
+
+/* Header */
+.header-text h1 {
+    font-size: 46px;
+}
+
+.header-text p {
+    font-size: 20px;
+}
+
+section {
+    margin: 120px 0;
+}
